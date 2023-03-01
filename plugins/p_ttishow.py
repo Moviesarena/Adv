@@ -22,7 +22,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('🌐 Support', url=f'https://t.me/greymatters_bots_discussion')
+                InlineKeyboardButton('🌐 Support', url=f'https://t.me/Helpline_4u')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -70,7 +70,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('🌐 Support', url=f'https://t.me/greymatters_bots_discussion')
+            InlineKeyboardButton('🌐 Support', url=f'https://t.me/Helpline_4u')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -109,7 +109,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('🌐 Support', url=f'https://t.me/greymatters_bots_discussion')
+            InlineKeyboardButton('🌐 Support', url=f'https://t.me/Helpline_4u')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -153,7 +153,7 @@ async def get_ststs(bot, message):
     await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
 
 
-# a function for trespassing into others groups, Inspired by a Vazha
+# a function for trespassing into others groups, Inspired by a Brue Lee
 # Not to be used , But Just to showcase his vazhatharam.
 # @Client.on_message(filters.command('invite') & filters.user(ADMINS))
 async def gen_invite(bot, message):
