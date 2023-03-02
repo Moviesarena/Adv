@@ -16,7 +16,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
-✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/Helpline_4u><b>Telugudubbing_moviess</b></a>\n
+✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/Movies_arena_4u><b>Movies Arena 4U</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : VPS\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Telugudubbing_moviess><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
