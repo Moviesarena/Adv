@@ -69,15 +69,15 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
 SELF_DELETE = environ.get('SELF_DELETE', False)
-if SELF_DELETE == "True":
-    SELF_DELETE = True
+if SELF_DELETE == "False":
+    SELF_DELETE = False
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
+DOWNLOAD_TEXT_NAME = "👇 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs 👇"
 DOWNLOAD_TEXT_URL = "https://t.me/movies_seriesupdates/585"
 
    # Custom Caption Under Button #
-CAPTION_BUTTON = "Subscribe"
+CAPTION_BUTTON = "🤗 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐩𝐥𝐞𝐚𝐬𝐞 🤗"
 CAPTION_BUTTON_URL = "https://t.me/Movies_arena_4u"
 
    # Auto Delete For Bot Sending Files #
